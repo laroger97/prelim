@@ -1,0 +1,229 @@
+* {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+.ide h1{
+    text-align: center;
+    font-size: 25px;
+    color: #043131;
+}
+
+.ind-main{
+    text-align: center;
+}
+
+.ind-main h1{
+    font-size: 23px;
+    color: #043131;
+}
+.ind-main p{
+    text-align: justify;
+    font-size: 1.1rem;
+    border-style: dotted;
+    border-color: #064b4b;
+    margin: 4px;
+    padding: 4px;
+}
+
+.img {
+    display: grid;
+    height: 100%;
+    background-color: #064b4b;
+}
+
+.center-fit{
+    max-width: 100%;
+    max-height: 100vh;
+    margin: auto;
+}
+
+.navi {
+    position: fixed;
+    top: 0;
+    background-color: #0e8686;
+    overflow: hidden;
+    width: 100%;
+}
+
+.navi a{
+    float: left;
+    display: block;
+    color:aliceblue;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 0.935rem;
+
+}
+
+.navi a:hover {
+    background: rgb(7, 63, 63);
+    color: aliceblue;
+  }
+
+.ind-a{
+    background-color: rgb(124, 206, 209);
+    margin: 20px;
+}
+
+.ind-a h2{
+    color: rgb(1, 15, 15);
+    font-weight: bolder;
+    font-size: 1.8rem;
+    background-color: #0e8686;
+    padding-left: 8px;
+}
+
+.ind-a p{
+    font-size: 1.1rem;
+    padding-bottom: 10px;
+    margin: 10px;
+}
+
+.foot{
+    background-color: #0e8686;
+    color: aliceblue;
+}
+
+.ano{
+    margin: 10px;
+    background-color: rgb(124, 206, 209);
+    border-style: solid;
+    border-color: #043131;
+}
+
+.ano h1{
+    font-size: 22px;
+}
+
+.ano p{
+    font-size: 18px;
+}
+
+.event-box{
+    margin: 20px;
+    border-style: solid;
+    border-color: #043131;
+}
+
+.event-box h2{
+    color: rgb(1, 15, 15);
+    font-weight: bolder;
+    font-size: 1.8rem;
+    padding-left: 8px;
+}
+
+.event-box p{
+    font-size: 1.1rem;
+    margin: 10px;
+    background-color: rgb(124, 206, 209);
+}
+
+.event-box img{
+    float: right;
+    display: block;
+    width: 40%;
+    height: auto;
+}
+#kapt{
+    text-align: center;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+#kag-h{
+    text-align: center;
+    background-color:#0e8686;
+}
+
+.kag{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.anon{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    height: auto;
+}
+
+#appo{
+    text-align: center;
+    background-color:#0e8686;
+}
+
+.app{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+@media only screen and (min-width: 768px) {
+    .ide h1{
+        text-align: center;
+        font-size: 40px;
+        color: #043131;
+    }
+
+    .ind-main h1{
+        font-size: 26px;
+        color: #043131;
+    }
+    .ind-main p{
+        text-align: justify;
+        font-size: 1.3rem;
+        border-style: dotted;
+        border-color: #064b4b;
+        margin: 4px;
+        margin-left: 20%;
+        margin-right: 20%;
+        padding: 4px;
+    
+    }
+
+    .navi a{
+        float: left;
+        display: block;
+        color:aliceblue;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 1.3rem;
+        font-weight: bold;
+    }
+
+    .ind-a{
+        background-color: rgb(124, 206, 209);
+        margin: 20px;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    .ind-a p{
+        font-size: 1.2rem;
+        padding-bottom: 10px;
+        margin: 10px;
+    }
+    
+    .ano h1{
+        font-size: 26px;
+    }
+    
+    .ano p{
+        font-size: 20px;
+    }
+
+
+    .anon{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 20%;
+        height: auto;
+    }
+
+}
